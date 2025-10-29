@@ -1,6 +1,6 @@
 package com.yadhuchoudhary.yadhu_choudhary_myruns3
 
-import androidx.core.animation.TypeConverter
+import androidx.room.TypeConverter
 import java.util.*
 
 class Converters {
