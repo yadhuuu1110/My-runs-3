@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyRuns3</string>
+
+    <!-- Tab titles -->
+    <string name="tab_start">START</string>
+    <string name="tab_history">HISTORY</string>
+    <string name="tab_settings">SETTINGS</string>
+
+    <!-- Button titles -->
+    <string name="ui_button_start_title">Start</string>
+    <string name="ui_button_save_title">SAVE</string>
+    <string name="ui_button_cancel_title">CANCEL</string>
+    <string name="ui_button_delete_title">DELETE</string>
+
+    <!-- Input/Activity types -->
+    <string name="input_type_manual">Manual Entry</string>
+    <string name="input_type_gps">GPS</string>
+    <string name="input_type_automatic">Automatic</string>
+
+    <!-- Unit preferences -->
+    <string-array name="unit_preference_entries">
+        <item>Imperial (Miles)</item>
+        <item>Metric (Kilometers)</item>
+    </string-array>
+
+    <string-array name="unit_preference_values">
+        <item>Imperial (Miles)</item>
+        <item>Metric (Kilometers)</item>
+    </string-array>
+
+    <!-- Titles -->
+    <string name="title_manual_input">Manual Entry</string>
+    <string name="title_display_entry">Entry Details</string>
+    <string name="title_map_display">Map Display</string>
+
+</resources>

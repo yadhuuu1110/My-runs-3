@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:title="Profile"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            app:key="profile"
+            app:title="User Profile"
+            app:summary="View and edit your profile"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="Settings"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            app:key="unit_preference"
+            app:title="Unit Preference"
+            app:entries="@array/unit_preference_entries"
+            app:entryValues="@array/unit_preference_values"
+            app:defaultValue="Imperial (Miles)"
+            app:iconSpaceReserved="false" />
+
+        <CheckBoxPreference
+            app:key="privacy"
+            app:title="Privacy"
+            app:summary="Enable privacy mode"
+            app:defaultValue="false"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="About"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            app:key="webpage"
+            app:title="Class Webpage"
+            app:summary="Visit our class website"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
